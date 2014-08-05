@@ -22,7 +22,7 @@
     function initMyBookmarklet($) {
         (window.myBookmarklet = function() {
             // your JavaScript code goes here!
-            // $.alert('yay!');
+            $.alert('yay!');
             console.log($);
         })();
     }
